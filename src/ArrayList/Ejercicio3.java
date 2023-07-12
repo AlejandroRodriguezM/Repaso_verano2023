@@ -2,12 +2,15 @@ package ArrayList;
 
 import java.util.*;
 
+/**
+ * Por AlejandroRM
+ */
+
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
 		
 		System.out.println(palabraLarga(listaGenerado(3)));
-		
 	}
 	
 	public static ArrayList<String> listaGenerado(int tamanioLista){
